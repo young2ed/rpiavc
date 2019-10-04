@@ -1,0 +1,22 @@
+{
+  "name": "rpiavc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^12.0.2",
+    "@types/ws": "^6.0.3",
+    "ws": "^7.1.2"
+  },
+  "author": "ey",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build": "parcel build src/index.ts --target node --out-dir .",
+    "dev": "npm run build && npm start"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.5.3"
+  }
+}
